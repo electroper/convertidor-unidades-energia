@@ -308,7 +308,7 @@ def converter():
 
     except ValueError:
         resultado['text'] = "Ingresa un N°"
-        resultado.config(fg="#ff0000")
+        resultado.config(fg="#000000")
 
 def limpiar():
     entri1.delete(0,END)
